@@ -9,16 +9,18 @@ programming languages.
 
 ## Node
 
-* URL parsig:
+* URL parsing tested with:
     * url
     * parseurl
     * url-parse
     * TODO: [node-uriparser](https://github.com/DreamLab/node-uriparser/)
-      (see [issue #5](https://github.com/DreamLab/node-uriparser/issues/5)) 
-* GET requests:
+      (see [issue #5](https://github.com/DreamLab/node-uriparser/issues/5))
+ 
+* GET requests tested with:
     * request
     * shred
     * unirest
+    * urllib
 
 Edit `url` setting in `config.js` and play with the scripts to see
 if your API URLs are handled property by the bunch of client libraries.
