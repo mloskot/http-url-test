@@ -1,0 +1,36 @@
+{
+  "name": "http-url-test",
+  "version": "1.0.0",
+  "description": "Playground for random tests of HTTP URL requests",
+  "main": "config.js",
+  "dependencies": {
+    "fs": "^0.0.2",
+    "express": "^4.13.3",
+    "shred": "^0.8.10",
+    "unirest": "^0.4.2",
+    "uri-parser": "^1.0.0",
+    "url-parse": "^1.0.5",
+    "urllib": "^2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mloskot/http-url-test.git"
+  },
+  "keywords": [
+    "http",
+    "url",
+    "web",
+    "test",
+    "experiment"
+  ],
+  "author": "Mateusz Loskot",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mloskot/http-url-test/issues"
+  },
+  "homepage": "https://github.com/mloskot/http-url-test#readme"
+}
