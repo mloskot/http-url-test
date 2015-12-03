@@ -1,6 +1,11 @@
-var target = 'http://google.com';
+var config = require('./config');
 
+console.log('====== request ======');
 var request = require('request');
-request(target, function(error, response, body) {
-    console.log(response.statusCode);
+request(config.url, function(error, response, body) {
+    if (error) {
+        console.log('GET error', error)
+    } else {
+        console.log('GET response', body)
+    }
 });
