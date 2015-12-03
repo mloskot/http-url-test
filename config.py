@@ -1,1 +1,2 @@
-url = 'http://localhost:8026/geognosis/8.0/Maps.json?'
+# Define your own target URL
+url = 'http://google.com/search?'
