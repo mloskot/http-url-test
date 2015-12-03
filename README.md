@@ -27,7 +27,10 @@ if your API URLs are handled property by the bunch of client libraries.
 
 ## Python (3.5)
 
+* `http.client` 
+* `requests`
 * `urllib`
+* `urllib3`
 
 ## CSharp
 
