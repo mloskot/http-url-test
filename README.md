@@ -23,4 +23,19 @@ programming languages.
 Edit `url` setting in `config.js` and play with the scripts to see
 if your API URLs are handled property by the bunch of client libraries.
 
-## Python
+## Python (3.5)
+
+* `urllib`
+
+## CSharp
+
+The `csharp` folder contains project which exercises a bunch of HTTP clients for .NET:
+
+* `WebRequest` (`HttpWebRequest`) from `System.Net`
+* `WebClient` from `System.Net`
+* [HttpClient](https://www.nuget.org/packages/Microsoft.Net.Http/)
+* [EasyHttp](https://github.com/hhariri/EasyHttp)
+* [RestSharp](https://github.com/restsharp/RestSharp)
+
+The third-party libraries are referenced via NuGet,
+so they should automatically deploy during build.
