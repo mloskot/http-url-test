@@ -1,6 +1,5 @@
 # Configs
-config.js.local
-config.py.local
+config_local*
 
 # Logs
 logs
