@@ -1,3 +1,7 @@
+# Configs
+config.js.local
+config.py.local
+
 # Logs
 logs
 *.log
