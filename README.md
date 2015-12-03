@@ -7,7 +7,26 @@ This work follows up discussion on URL parsing issues in Python Requests
 package, but also possbile to occur in HTTP packages for other
 programming languages.
 
+## Python (3.5)
+
+Configuration: edit the URL in `config.py` or copy to new `config_local.py`
+and edit there.
+
+* http.client 
+* requests
+* urllib
+* urllib3
+
 ## Node
+
+Configuration: edit the URL in `config.js` or copy to new `config_local.js`
+and edit there.
+
+* GET requests tested with:
+    * request
+    * shred
+    * unirest
+    * urllib
 
 * URL parsing tested with:
     * url
@@ -16,23 +35,9 @@ programming languages.
     * TODO: [node-uriparser](https://github.com/DreamLab/node-uriparser/)
       (see [issue #5](https://github.com/DreamLab/node-uriparser/issues/5))
  
-* GET requests tested with:
-    * request
-    * shred
-    * unirest
-    * urllib
-
-Edit `url` setting in `config.js` and play with the scripts to see
-if your API URLs are handled property by the bunch of client libraries.
-
-## Python (3.5)
-
-* http.client 
-* requests
-* urllib
-* urllib3
-
 ## CSharp
+
+Configuration: hard-wired URL in `Program.cs` source file.
 
 The `csharp` folder contains project which exercises a bunch of HTTP clients for .NET:
 
@@ -44,3 +49,7 @@ The `csharp` folder contains project which exercises a bunch of HTTP clients for
 
 The third-party libraries are referenced via NuGet,
 so they should automatically deploy during build.
+
+## Go
+
+*TODO*
