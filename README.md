@@ -23,7 +23,7 @@ and edit there.
 
 * GET requests tested with:
     * request
-    * shred
+    * [shred](https://www.npmjs.com/package/shred)
     * unirest
     * urllib
 
