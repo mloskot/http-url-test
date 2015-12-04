@@ -2,8 +2,13 @@
 
 Playground for random tests of HTTP URL requests.
 
-This work follows up discussion on URL parsing and (de|re)composing issues in Python Requests
-(see [Issue 2912](https://github.com/kennethreitz/requests/issues/2912),
+This work follows up discussion on URL parsing and (de|re)composing issues in
+* Python
+   * Requests [kennethreitz/requests#2912](https://github.com/kennethreitz/requests/issues/2912)
+* Go
+   * [golang/go/13488](https://github.com/golang/go/issues/13488)
+   * [parnurzeal/gorequest#65](https://github.com/parnurzeal/gorequest/issues/65)
+
 but also possbile to occur in HTTP packages for other programming languages.
 
 ## Python (3.5)
