@@ -1,7 +1,7 @@
 import std.net.curl, std.stdio;
 
 void main() {
-    string url = "http://localhost:8026/geognosis/8.0/Maps.json?";
+    string url = "http://www.bing.com/search?";
     auto content = get(url);
     
     writeln("Request URL: ", url);
