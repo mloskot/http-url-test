@@ -52,3 +52,4 @@ so they should automatically deploy during build.
 ## Go
 
 * [net/http](https://golang.org/pkg/net/http/)
+* [gorequest](https://github.com/parnurzeal/gorequest)
