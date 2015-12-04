@@ -11,7 +11,7 @@ namespace TestUrl
     {
         static void Main(string[] args)
         {
-            string url = "http://google.com/search?";
+            string url = "http://www.bing.com/search?";
             Test_WebRequest(url);
             Test_WebClient(url);
             Test_HttpClient(url);
