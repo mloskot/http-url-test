@@ -53,3 +53,7 @@ so they should automatically deploy during build.
 
 * [net/http](https://golang.org/pkg/net/http/)
 * [gorequest](https://github.com/parnurzeal/gorequest)
+
+## D
+
+* [std.net.curl](https://dlang.org/phobos/std_net_curl.html) (high level `get()`, low level `HTTP`)
