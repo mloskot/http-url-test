@@ -1,16 +1,15 @@
 # Configs
 config_local*
 
-# Logs
-logs
-*.log
-
-# Compiled binary addons (http://nodejs.org/api/addons.html)
+# Builds
+*.exe
+*.obj
 build/Release
+
+# Python
 __pycache__
 
-# Dependency directory
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+# Node
 node_modules
 
 # Go
