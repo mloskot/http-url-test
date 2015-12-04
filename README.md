@@ -51,4 +51,4 @@ so they should automatically deploy during build.
 
 ## Go
 
-* [http/net](https://golang.org/pkg/net/http/)
+* [net/http](https://golang.org/pkg/net/http/)
