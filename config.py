@@ -1,2 +1,2 @@
 # Define your own target URL
-url = 'http://google.com/search?'
+url = 'http://www.bing.com/search?'

@@ -1,5 +1,5 @@
 var config = {};
-config.url = 'https://www.google.com?';
+config.url = 'http://www.bing.com/search?';
         
 var fs = require('fs');
 if (fs.statSync("./config_local.js").isFile()) {    
